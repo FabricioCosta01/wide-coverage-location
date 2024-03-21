@@ -1,0 +1,157 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 47px 0px 179px 150px;
+}
+
+.link-header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  color: rgba(23, 35, 61, 1);
+  cursor: pointer;
+  margin-right: 30px;
+  letter-spacing: 0.875px;
+}
+
+.button-header {
+  width: 124px;
+  height: 51px;
+  border: 1px;
+  background-color: rgba(111, 191, 68, 1);
+  border: rgba(76, 181, 56, 1);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.button-header:hover {
+  opacity: 0.8;
+  transition: 0.6;
+}
+
+.button-header:active {
+  opacity: 0.4;
+}
+
+.img-logo {
+  width: 595px;
+  height: 500px;
+  margin-top: -100px;
+  margin-left: 121px;
+  display: inline-block;
+}
+
+.first-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  width: 493px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.second-p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(111, 191, 68, 1);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.second-p:hover {
+  opacity: 0.8;
+  transition: 0.6;
+}
+
+.second-p:active {
+  opacity: 0.4;
+}
+
+section {
+  display: inline-block;
+  margin-left: 84.82px;
+  width: 493px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+}
+
+@media screen and (max-width: 740px) {
+  a {
+    display: none;
+  }
+
+  .img-logo {
+    display: block;
+    width: 312px;
+    height: 288px;
+    position: absolute;
+    z-index: -1;
+    margin-top: 460px;
+  }
+
+  .button-header {
+    display: block;
+    width: 91px;
+    height: 31px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 265px;
+  }
+
+  .button-header:hover {
+    opacity: 0.8;
+    transition: 0.6;
+  }
+
+  .button-header:active {
+    opacity: 0.4;
+  }
+
+  h1 {
+    width: 278px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    margin-left: 85px;
+  }
+
+  .first-p {
+    width: 300px;
+    height: 165px;
+    font-size: 18px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    margin-left: 55px;
+  }
+
+  .second-p {
+    display: flex;
+    margin-left: 140px;
+  }
+
+  .second-p:hover {
+    opacity: 0.8;
+    transition: 0.6;
+  }
+
+  .second-p:active {
+    opacity: 0.4;
+  }
+}
